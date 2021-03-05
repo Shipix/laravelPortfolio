@@ -1,0 +1,10 @@
+@extends('template.main')
+@section('content')
+    @include('partials.contenus.herosection')
+@endsection
+@section('main')
+    @include('partials.contenus.aboutsection')
+    @include('partials.contenus.servicesection')
+    @include('partials.contenus.portfoliosection')
+    @include('partials.contenus.contact')
+@endsection
