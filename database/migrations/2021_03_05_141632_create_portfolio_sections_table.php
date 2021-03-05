@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateServicesSectionParasTable extends Migration
+class CreatePortfolioSectionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,10 @@ class CreateServicesSectionParasTable extends Migration
      */
     public function up()
     {
-        Schema::create('services_section_paras', function (Blueprint $table) {
+        Schema::create('portfolio_sections', function (Blueprint $table) {
             $table->id();
             $table->string('titre');
-            $table->text('para');
-            $table->string('ico');
+            $table->string('soustitre');
             $table->timestamps();
         });
     }
@@ -29,6 +28,6 @@ class CreateServicesSectionParasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('services_section_paras');
+        Schema::dropIfExists('portfolio_sections');
     }
 }

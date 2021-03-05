@@ -19,7 +19,9 @@ class DatabaseSeeder extends Seeder
                 HeroSectionSeeder::class,
                 AboutSectionParaSeeder::class,
                 AboutSectionLiSeeder::class,
-                ServicesSectionSeeder::class
+                ServicesSectionSeeder::class,
+                ServicesSectionParaSeeder::class,
+                PortfolioSectionSeeder::class,
             ]
             );
     }

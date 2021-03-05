@@ -32,9 +32,19 @@ class ServicesSectionParaSeeder extends Seeder
                     'ico'=>'icofont-earth',
                 ],
                 [
-                    'titre'=>'Sed ut perspiciatis',
-                    'para'=>'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur',
+                    'titre'=>'Nemo Enim',
+                    'para'=>'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque',
+                    'ico'=>'icofont-settings',
+                ],
+                [
+                    'titre'=>'Magni Dolores',
+                    'para'=>'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                     'ico'=>'icofont-image',
+                ],
+                [
+                    'titre'=>'Eiusmod Tempor',
+                    'para'=>'Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi',
+                    'ico'=>'icofont-tasks-alt',
                 ],
             ]
             );
